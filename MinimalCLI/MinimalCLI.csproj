@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackAsTool>True</PackAsTool>
+		<ToolCommandName>table2cs</ToolCommandName>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+		<PackageReference Include="MySql.Data" Version="8.4.0" />
+		<PackageReference Include="Npgsql" Version="8.0.3" />
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.4.0" />
+	</ItemGroup>
+
+</Project>
